@@ -1,0 +1,4 @@
+fun main() {
+    println(54 % 10) // it prints 4
+    println((54 / 10) % 10) // it prints 5
+}
