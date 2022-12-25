@@ -1,0 +1,10 @@
+fun main() {
+    val a = readln().toInt()
+    val b = a % 10
+    val f = a / 10
+    val c = f % 10
+    val g = f / 10
+    val d = g % 10
+    val e = b + c + d
+    println(e)
+}
