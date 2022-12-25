@@ -1,0 +1,14 @@
+fun main() {
+    val totalSeconds = System.currentTimeMillis() / 1000 // dont change this line
+    val currentHours = totalSeconds / 60 / 60
+    val currentMinutes = totalSeconds / 60 % 60
+    val currentSeconds = totalSeconds % 60
+    val formatted = ("$currentHours:$currentMinutes:$currentSeconds")
+    //need 3 parts, something to get the hours and leave the remainder, something to take that remainder, get the minutes,
+    //and leave the remainder, and then something to put it all together in the format HOURS:MINUTES:SECONDS since 1/1/1970...
+    println(totalSeconds)
+    println(currentHours)
+    println(currentMinutes)
+    println(currentSeconds)
+    println(formatted)
+}
