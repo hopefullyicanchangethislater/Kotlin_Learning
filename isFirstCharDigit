@@ -1,0 +1,7 @@
+fun main() {
+    val ch = readln().first()
+    val isDigit = ch >= '\u0030' && ch <= '\u0039'
+    // this will tell me if the first character in a string (or long or char) is a digit. Could be useful for testing variables and passing those with or without digit as first value
+    // this could be slightly altered to produce a bollean value from any character in the sequence and make a decision (tree) based on that...
+    println(isDigit)
+}
